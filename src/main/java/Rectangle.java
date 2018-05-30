@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 
-/**
- * Created by staff on 7/10/17.
- */
+
 public class Rectangle {
     private int height;
     private int width;
@@ -38,6 +36,10 @@ public class Rectangle {
         else {
             return false;
         }
+    }
+
+    public int getArea() {
+        return height * width;
     }
 
 }
